@@ -1,0 +1,169 @@
+body{
+    font-family: sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F5FC;
+}
+
+.contenedor-programa{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+
+header{
+    width: 100%;
+    float:left;
+}
+
+.imagen{
+    margin-top: 1%;
+    float: inherit;
+    margin-left: 5%;
+}
+
+.titulo{
+    float: inherit;
+    margin-left: 20%;
+    color: #0A3871;
+}
+
+main{
+    height: 100%;
+}
+
+.encriptador{
+    float:left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+
+.caja-de-texto{
+    float:left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    background-color: #F3F5FC;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.resultado{
+    float: right;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+
+#imagen-derecha{
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    margin-left: 2%;
+}
+
+#texto-principal{
+    margin-left: 7%;
+    margin-right: 5%;
+    text-align: center;
+    color:#343A40 ;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#texto-secundario{
+    float: left;
+    margin: 10%;
+    color:#343A40;
+    width: 80%;
+    height: 30%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+#copiar{
+    margin-left: 33%;
+    padding: 24px;
+    margin: 100% 20%;
+    width: 60%;
+    height: 10%;
+    background-color:#343A40;
+    border-radius: 24px;
+    display: none;
+    font-size: 16px;
+    color: #D8DFE8;
+    font-weight: bold;
+}
+
+.botonera{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.icono-admiracion{
+    float: left;
+    margin: 10px 5px;
+}
+
+.condicion{
+    margin-left: 15px;
+    font-size: 12px;
+    color: #495057;
+    font-weight: bold;
+}
+
+#boton-encriptar{
+    padding: 24px;
+    width: 45%;
+    height: 40%;
+    border-radius: 24px;
+    margin-left: 1%;
+    background-color: #0A3871;
+    color: #D8DFE8;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#boton-desencriptar{
+    padding: 24px;
+    width: 45%;
+    height: 40%;
+    border-radius: 24px;
+    margin-left: 5%;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-color: #0A3871;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    color:#0A3871;
+    text-align: center;
+}
+
+.copyright{
+    padding-top: 15px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vieport" content="width=device-width">
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="encriptar.js"></script>
+        <script type="text/javascript" src="desencriptar.js"></script>
+        <script type="text/javascript" src="copiar.js"></script>
+    </head>
+
+    <body>
+       <div class="contenedor-programa">
+            <header>  
+                <img class="imagen" src="imágenes/logo-alura.png" alt="Logo de Alura">
+                <h1 class="titulo">Encriptador Mágico</h1>
+            </header>
+
+            <main>
+
+                <div class="encriptador">
+                    <textarea rows="8" cols="80" class="caja-de-texto" id="inputTexto" type="text" placeholder="Ingrese el texto aquí"></textarea>
+                </div>
+              
+                <div class="resultado">
+                    <img src="imágenes/Muñeco.png" id="imagen-derecha" alt="Muñeco de Alura">
+                    <h1 id="texto-principal">Ningún mensaje fue encontrado</h1>
+                    <textarea id="texto-secundario" name="name" rows="8" cols="80">Ingrese el texto que desees encriptar o desencriptar.</textarea>
+                    <button id="copiar" type="button" name="button" onclick="copy()">¡Copiar!</button>
+                </div>
+                      
+                <div class="botonera">
+                    <img src="imágenes/icono-admiracion.png" alt="signo de admiración" class="icono-admiracion">
+                    <p class="condicion"> Sólo letras minúsculas y sin acentos</p>
+                    <button type="button" id="boton-encriptar" onclick="encriptar()">Encriptar</button>
+                    <button type="button" id="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </main>
+
+            <footer>
+                <p class="copyright">&copy Copyright Carlos Raiteri - 2022</p>
+            </footer>
+        </div>
+    </body>
+
+</html>
